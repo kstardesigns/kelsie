@@ -21,6 +21,13 @@ $('.tab3').click(function(){
     $('.portrait-toggle span:not(.tab3)').removeClass('activetab');
 });
 
+$('.tab4').click(function(){
+    $('.tab4').addClass('activetab');
+    $('.portraits4-psalms').addClass('active');
+    $('.main > div:not(".portraits4-psalms")').removeClass('active');
+    $('.portrait-toggle span:not(.tab4)').removeClass('activetab');
+});
+
 $('.inside nav:not(ul)').click(function(){
     $('.inside nav ul').toggle();
     $('.inside .navmenu').toggleClass('open');
